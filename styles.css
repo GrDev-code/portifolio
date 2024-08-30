@@ -1,3 +1,4 @@
+/* corpo da pagina */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,10 +9,10 @@ body {
 }
 
 header {
-    background-color: #1a1a1a;
-    padding: 10px;
+    background-color: #000000;
+    padding: 20px;
 }
-
+/* barra superior de navegação*/
 nav ul {
     list-style: none;
     padding: 0;
@@ -44,10 +45,28 @@ section {
 }
 
 #sobre {
+    font-size: 30px;
     color: rgb(255, 255, 255);
-    background-color: #2b2b2b77;
+    background-color: #00000077;
 }
 
+#sobre2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #00000077;
+}
+#sobre2 h2 {
+    color: rgb(89, 238, 126);
+}
+#formacao h2 {
+    color: rgb(89, 238, 126);
+}
+#projetos h2 {
+    color: rgb(89, 238, 126);
+}
+#contato h2 {
+    color: rgb(89, 238, 126);
+}
 #projetos .galeria {
     display: flex;
     justify-content: space-around;
